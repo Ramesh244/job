@@ -1,0 +1,106 @@
+.filters-group-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .filters-group-container {
+    padding: 5px;
+    max-width: 300px;
+  }
+}
+
+.search-container-mobile {
+  height: 45px;
+  width: 100%;
+  margin: 20px 0px;
+  padding: 0px;
+  border: 2px solid #64748a;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .search-container-mobile {
+    display: none;
+  }
+}
+
+.search-input {
+  color: #727064;
+  font-size: 20px;
+  font-weight: 400;
+  height: 45px;
+  width: calc(100% - 70px);
+  padding: 5px 10px 5px 15px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-icon-div {
+  background-color: #201f20;
+  height: 41px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-btn {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.search-icon {
+  color: #ffffff;
+  font-size: 20px;
+  width: 70px;
+}
+
+hr {
+  width: 95%;
+  margin: 10px 0px;
+}
+
+.filterDiv {
+  width: 100%;
+}
+
+.filterType {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 15px 15px;
+}
+
+.filterList {
+  padding: 0px;
+  margin: 10px 0px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.optionItem {
+  list-style-type: none;
+  margin: 5px;
+}
+
+.checkbox {
+  height: 15px;
+  width: 15px;
+}
+
+.optionLabel {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0px 10px;
+}

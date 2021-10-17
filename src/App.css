@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --dark-ashy-background-color: #121212;
+  --light-ashy-container-color: #272727;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
